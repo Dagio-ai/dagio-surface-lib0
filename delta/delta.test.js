@@ -1,5 +1,5 @@
-import * as t from 'lib0/testing'
-import * as s from 'lib0/schema'
+import * as t from '@dagio-ai/surface-lib0/testing'
+import * as s from '@dagio-ai/surface-lib0/schema'
 import * as delta from './delta.js'
 import * as error from '../error.js'
 import * as prng from '../prng.js'

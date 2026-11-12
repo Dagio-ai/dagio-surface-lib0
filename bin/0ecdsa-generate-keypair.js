@@ -1,7 +1,7 @@
 #!/usr/bin/env node
-import * as ecdsa from 'lib0/crypto/ecdsa'
-import * as json from 'lib0/json'
-import * as env from 'lib0/environment'
+import * as ecdsa from '@dagio-ai/surface-lib0/crypto/ecdsa'
+import * as json from '@dagio-ai/surface-lib0/json'
+import * as env from '@dagio-ai/surface-lib0/environment'
 
 const prefix = env.getConf('name')
 

@@ -15,10 +15,10 @@
     "noImplicitAny": true,
     "moduleResolution": "nodenext",
     "paths": {
-      "lib0/*": ["./*"],
-      "lib0/webcrypto": ["./webcrypto.js"],
-      "lib0/performance": ["./performance.node.js"],
-      "lib0/logging": ["./logging.node.js"]
+      "@dagio-ai/surface-lib0/*": ["./*"],
+      "@dagio-ai/surface-lib0/webcrypto": ["./webcrypto.js"],
+      "@dagio-ai/surface-lib0/performance": ["./performance.node.js"],
+      "@dagio-ai/surface-lib0/logging": ["./logging.node.js"]
     }
   },
   "include": ["./*.js", "./diff/*.js", "./hash/*.js", "./crypto/*.js", "./bin/*.js", "./delta/*.js", "./trait/*.js"],

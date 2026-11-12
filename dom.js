@@ -7,7 +7,6 @@
  */
 
 import * as pair from './pair.js'
-import * as map from './map.js'
 import * as $ from './schema.js'
 
 /* c8 ignore start */
@@ -184,11 +183,7 @@ export const pairToStyleString = pair => `${pair.left}:${pair.right};`
  */
 export const pairsToStyleString = pairs => pairs.map(pairToStyleString).join('')
 
-/**
- * @param {Map<string,string>} m
- * @return {string}
- */
-export const mapToStyleString = m => map.map(m, (value, key) => `${key}:${value};`).join('')
+export { mapToStyleString } from './string.js'
 
 /**
  * @todo should always query on a dom element

@@ -14,5 +14,5 @@ export default [{
     entryFileNames: '[name].cjs',
     chunkFileNames: '[name]-[hash].cjs'
   },
-  external: ['isomorphic.js', 'node:crypto', 'lib0/webcrypto', 'lib0/performance', 'perf_hooks', 'isomorphic-webcrypto/src/react-native', 'node:perf_hooks', 'lib0/logging']
+  external: ['isomorphic.js', 'node:crypto', '@dagio-ai/surface-lib0/webcrypto', '@dagio-ai/surface-lib0/performance', 'perf_hooks', 'isomorphic-webcrypto/src/react-native', 'node:perf_hooks', '@dagio-ai/surface-lib0/logging']
 }]

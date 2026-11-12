@@ -8,6 +8,7 @@ import * as env from './environment.js'
 import * as set from './set.js'
 import * as pair from './pair.js'
 import * as dom from './dom.js'
+import * as string from './string.js'
 import * as json from './json.js'
 import * as map from './map.js'
 import * as eventloop from './eventloop.js'
@@ -60,7 +61,7 @@ const computeBrowserLoggingArgs = (args) => {
         break
       }
       if (arg.constructor === String || arg.constructor === Number) {
-        const style = dom.mapToStyleString(currentStyle)
+        const style = string.mapToStyleString(currentStyle)
         if (i > 0 || style.length > 0) {
           strBuilder.push('%c' + arg)
           styles.push(style)
@@ -213,7 +214,7 @@ const _computeLineSpans = (args) => {
       if (arg.constructor === String || arg.constructor === Number) {
         // @ts-ignore
         const span = dom.element('span', [
-          pair.create('style', dom.mapToStyleString(currentStyle))
+          pair.create('style', string.mapToStyleString(currentStyle))
         ], [dom.text(arg.toString())])
         if (span.innerHTML === '') {
           span.innerHTML = '&nbsp;'

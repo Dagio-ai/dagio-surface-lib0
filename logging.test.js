@@ -1,4 +1,4 @@
-import * as log from 'lib0/logging'
+import * as log from '@dagio-ai/surface-lib0/logging'
 
 export const testLogging = () => {
   log.print(log.BLUE, 'blue ')

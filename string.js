@@ -1,4 +1,5 @@
 import * as array from './array.js'
+import * as map from './map.js'
 
 /**
  * Utility module to work with strings.
@@ -163,3 +164,9 @@ export const unescapeHTML = str =>
     '&#39;': "'",
     '&quot;': '"'
   }[r]))
+
+/**
+ * @param {Map<string,string>} m
+ * @return {string}
+ */
+export const mapToStyleString = m => map.map(m, (value, key) => `${key}:${value};`).join('')

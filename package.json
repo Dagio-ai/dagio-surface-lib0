@@ -1,6 +1,6 @@
 {
-  "name": "lib0",
-  "version": "0.2.119",
+  "name": "@dagio-ai/surface-lib0",
+  "version": "0.2.119-surface.1",
   "description": "",
   "sideEffects": false,
   "type": "module",
@@ -535,7 +535,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dmonad/lib0.git"
+    "url": "git+https://github.com/Dagio-ai/dagio-surface-lib0.git"
   },
   "author": "Kevin Jahns <kevin.jahns@protonmail.com>",
   "license": "MIT",
@@ -552,5 +552,8 @@
   },
   "engines": {
     "node": ">=16"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com"
   }
 }

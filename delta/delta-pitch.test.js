@@ -1,6 +1,6 @@
-import * as delta from 'lib0/delta'
-import * as t from 'lib0/testing'
-import * as s from 'lib0/schema'
+import * as delta from '@dagio-ai/surface-lib0/delta'
+import * as t from '@dagio-ai/surface-lib0/testing'
+import * as s from '@dagio-ai/surface-lib0/schema'
 
 /**
  * Delta is a versatile format enabling you to efficiently describe changes. It is part of lib0, so

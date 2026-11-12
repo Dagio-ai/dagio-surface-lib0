@@ -1,8 +1,8 @@
 /*
-import { Tree as RedBlackTree } from 'lib0/Tree.js'
+import { Tree as RedBlackTree } from '@dagio-ai/surface-lib0/Tree.js'
 import * as ID from '../utils/ID.js'
 import { test, proxyConsole } from 'cutest'
-import * as random from 'lib0/prng.js'
+import * as random from '@dagio-ai/surface-lib0/prng.js'
 
 proxyConsole()
 
